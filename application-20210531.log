@@ -1,0 +1,154 @@
+2021-05-31 13:40:31.816 [main] DEBUG org.example.App - We've just greeted the user!
+2021-05-31 13:40:31.819 [main] INFO  org.example.App - We've just greeted the user!
+2021-05-31 13:40:31.820 [main] WARN  org.example.App - We've just greeted the user!
+2021-05-31 13:40:31.820 [main] ERROR org.example.App - We've just greeted the user!
+2021-05-31 13:40:31.820 [main] FATAL org.example.App - We've just greeted the user!
+2021-05-31 13:47:29.227 [main] FATAL org.example.App - We've just greeted the user!
+2021-05-31 13:48:23.706 [main] FATAL org.example.App - We've just greeted the user!
+2021-05-31 15:30:13.056 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:30:57.621 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:31:55.192 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:32:19.123 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:34:06.186 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:34:23.858 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:34:43.726 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:38:03.581 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:40:50.235 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:41:15.553 [main] INFO  org.example.Controller - Try to open DB
+2021-05-31 15:46:02.676 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 15:51:50.481 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 15:51:50.503 [main] WARN  org.example.utilyties.Validation - DB wasn't opened
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:124) [classes/:?]
+	at org.example.Controller.creation(Controller.java:20) [classes/:?]
+	at org.example.Main.main(Main.java:6) [classes/:?]
+2021-05-31 15:53:46.942 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 15:53:46.951 [main] WARN  org.example.utilyties.Validation - DB wasn't opened
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:124) [classes/:?]
+	at org.example.Controller.creation(Controller.java:20) [classes/:?]
+	at org.example.Main.main(Main.java:6) [classes/:?]
+2021-05-31 16:23:07.774 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 16:23:07.780 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 16:23:07.785 [main] ERROR org.example.utilyties.Validation - DB wasn't opened ,
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:135) [classes/:?]
+	at org.example.Controller.creation(Controller.java:21) [classes/:?]
+	at org.example.Main.main(Main.java:8) [classes/:?]
+2021-05-31 16:23:07.854 [main] INFO  org.example.utilyties.Validation - fill from example
+2021-05-31 16:26:43.585 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 16:26:43.591 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 16:26:43.600 [main] ERROR org.example.utilyties.Validation - DB wasn't opened ,
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:136) [classes/:?]
+	at org.example.Controller.creation(Controller.java:21) [classes/:?]
+	at org.example.Main.main(Main.java:8) [classes/:?]
+2021-05-31 16:26:43.741 [main] INFO  org.example.utilyties.Validation - fill from example
+2021-05-31 16:26:55.314 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 16:26:55.320 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 16:26:55.326 [main] ERROR org.example.utilyties.Validation - DB wasn't opened ,
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:136) [classes/:?]
+	at org.example.Controller.creation(Controller.java:21) [classes/:?]
+	at org.example.Main.main(Main.java:8) [classes/:?]
+2021-05-31 16:26:55.428 [main] INFO  org.example.utilyties.Validation - fill from example
+2021-05-31 16:27:32.956 [main] INFO  org.example.Controller - User try to find , who took book in that date
+2021-05-31 16:28:22.467 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 16:28:25.226 [main] INFO  org.example.utilyties.Validation - saving result
+2021-05-31 16:30:58.499 [main] INFO  org.example.utilyties.Validation - saved reader:
+2021-05-31 16:32:16.635 [main] INFO  org.example.utilyties.Validation - saved book:
+2021-05-31 16:33:00.798 [main] INFO  org.example.Controller - exit from program
+2021-05-31 17:04:30.578 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 17:04:30.584 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 17:04:56.025 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 17:04:58.680 [main] INFO  org.example.utilyties.Validation - saving result
+2021-05-31 17:05:31.457 [main] INFO  org.example.Controller - exit from program
+2021-05-31 17:05:31.466 [main] INFO  org.example.Controller - save the DB
+2021-05-31 17:54:24.787 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 17:54:24.908 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 17:54:42.809 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 17:54:49.744 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 17:54:52.518 [main] INFO  org.example.utilyties.Validation - saving result
+2021-05-31 17:54:57.152 [main] INFO  org.example.Controller - exit from program
+2021-05-31 17:54:57.161 [main] INFO  org.example.Controller - save the DB
+2021-05-31 17:59:10.427 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 17:59:10.458 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 17:59:22.526 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 17:59:22.540 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 18:03:44.896 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:03:44.906 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 18:03:59.034 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:03:59.041 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 18:10:11.737 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:10:11.808 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 18:19:53.396 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:19:53.520 [main] INFO  org.example.utilyties.Validation - Try to open DB
+2021-05-31 18:24:56.185 [main] INFO  org.example.Controller - exit from program
+2021-05-31 18:24:56.229 [main] INFO  org.example.Controller - save the DB
+2021-05-31 18:25:17.829 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:25:17.836 [main] INFO  org.example.utilyties.Validation - open DB
+2021-05-31 18:25:27.208 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 18:25:29.142 [main] INFO  org.example.utilyties.Validation - saving result
+2021-05-31 18:25:32.832 [main] INFO  org.example.Controller - exit from program
+2021-05-31 18:25:32.840 [main] INFO  org.example.Controller - save the DB
+2021-05-31 18:26:14.513 [main] INFO  org.example.Controller - 
+
+START
+2021-05-31 18:26:14.522 [main] INFO  org.example.utilyties.Validation - open DB
+2021-05-31 18:26:14.532 [main] ERROR org.example.utilyties.Validation - DB wasn't opened ,
+java.io.StreamCorruptedException: invalid stream header: EFBFBDEF
+	at java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:943) ~[?:?]
+	at java.io.ObjectInputStream.<init>(ObjectInputStream.java:381) ~[?:?]
+	at org.example.utilyties.Streams.deserializeDB(Streams.java:41) ~[classes/:?]
+	at org.example.LookForModel.openDB(LookForModel.java:36) ~[classes/:?]
+	at org.example.utilyties.Validation.importDB(Validation.java:136) [classes/:?]
+	at org.example.Controller.creation(Controller.java:21) [classes/:?]
+	at org.example.Main.main(Main.java:8) [classes/:?]
+2021-05-31 18:26:14.687 [main] INFO  org.example.utilyties.Validation - fill from example
+2021-05-31 18:26:19.232 [main] INFO  org.example.Controller - User try to find , who owed book
+2021-05-31 18:26:24.048 [main] INFO  org.example.Controller - exit from program
+2021-05-31 18:26:24.073 [main] INFO  org.example.Controller - save the DB
